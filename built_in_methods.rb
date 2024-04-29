@@ -7,16 +7,17 @@
 # No arguments are passed; downcase has one clear job which is to lowercase all letters that exist in the String
 # The return value is "hello world"
 "Hello World".downcase
+# This code when run the method lowers the h in hello and the w in world lowercase. 
 
 
 "Hello World".include?("Hello")
-
+# In this code it is asking if our string incldues the word Hello and because the first word is Hello it exeutes true. 
 
 "Hello World".end_with?("Hello")
-
+# In this code it is asking if our stirng ends with the word Hello and in this case our string does not meaing it executes to false.
 
 "Hello World".end_with?("rld")
-
+# This code is asking if our string ends with the leters rld. Beacuse our last world in our stirng is world ending in rld it executes to true. 
 
 12.even?
 
@@ -39,6 +40,19 @@
 first_name = "Jeff"
 puts first_name.start_with?("J")
 
+
+#The end_with? method is called on the pet_name variable witch sores the string "Barrack"
+#The end_with? method returns true if data in pet_name variable ends with the argumnet provided.
+#This method returns a value of true. 
+pet_name = "Barrack"
+puts pet_name.end_with?("k")
+
+#The length method is called on the sibling string variable which stores Erica
+#The length method returns ture if ata in sibling stirng matchs length agrument provided.
+#This method returns a value of true.
+sibling_name = "Erica"
+"Erica".length
+puts sibling_name.length("5")
 
 
 # SECTION 3: Calling methods on variables assigned to integers.
